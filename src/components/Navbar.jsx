@@ -1,6 +1,7 @@
 import logo from "../assets/JSLogo.png";
 import {FaLinkedin} from "react-icons/fa";
 import {FaGithub} from "react-icons/fa";
+import { motion } from "framer-motion";
 
 const Navbar = () => {
     return (
@@ -9,12 +10,22 @@ const Navbar = () => {
             <img className="mx-2 size-14" src={logo} alt="logo"/>
         </div>
         <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-            <a href="https://www.linkedin.com/in/jonas-shoukri-832967215/" target="_blank" rel="noopener noreferrer">
+            <motion.a
+                whileHover={{ scale: 1.2 }}
+                whileTap={{ scale: 1.1 }}
+                drag="x"
+                dragConstraints={{ left: -100, right: 100 }}
+                href="https://www.linkedin.com/in/jonas-shoukri-832967215/" target="_blank" rel="noopener noreferrer">
                 <FaLinkedin/>
-            </a>
-            <a href="https://www.github.com/jonashoukri/" target="_blank" rel="noopener noreferrer">
+            </motion.a>
+            <motion.a
+                whileHover={{ scale: 1.2 }}
+                whileTap={{ scale: 1.1 }}
+                drag="x"
+                dragConstraints={{ left: -100, right: 100 }}
+                href="https://www.github.com/jonashoukri/" target="_blank" rel="noopener noreferrer">
                 <FaGithub/>
-            </a>
+            </motion.a>
         </div>
     </nav>
     );
