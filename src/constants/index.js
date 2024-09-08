@@ -82,7 +82,7 @@ export const PROJECTS_FR = [
     image: project2,
     description:
         "J'étais responsable de la conceptualisation et de la planification du projet, puis de la gestion d'une petite équipe de développeurs étudiants du club d'informatique ELITE de LaSalle pour mettre en œuvre la vision. Le projet utilise un backend de web scraper en .NET/C# qui agrège des annonces immobilières de la grande région de Montréal dans une base de données MongoDB. Nous avons placé ces données derrière un mur payant en développant une API Web ASP.NET, permettant à d'autres développeurs d'accéder directement à la base de données. De plus, nous avons créé un site Web React comprenant une page de listes (montrant les données agrégées), une page API (où les utilisateurs peuvent acheter des clés API et consulter la documentation), et une page de données (offrant des analyses préemballées, telles que les quartiers en vogue et les prix moyens historiques des maisons par emplacement).",
-    technologies: ["DotNet", "C#", "ASP", "MongoDB", "React", "GitHub", "Azure"],
+    technologies: ["DotNet", "MongoDB", "React", "Azure"],
   },
 ];
 
