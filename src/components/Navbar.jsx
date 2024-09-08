@@ -2,12 +2,13 @@ import logo from "../assets/JSLogo.png";
 import {FaLinkedin} from "react-icons/fa";
 import {FaGithub} from "react-icons/fa";
 import { motion } from "framer-motion";
-import {ChakraProvider, FormControl, FormLabel, Switch} from '@chakra-ui/react'
+import {Button, ChakraProvider } from "@chakra-ui/react";
 
 const Navbar = () => {
     return (
-    <nav className="mb-20 flex item-center justify-between py-6">
+    <nav className="mb-20 flex item-center justify-between py-6 align-items-center">
         <div className="flex flexshrink-0 item-center">
+
         </div>
         <div className="m-8 flex items-center justify-center gap-4 text-2xl">
             <motion.a
