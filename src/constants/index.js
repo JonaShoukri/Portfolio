@@ -1,14 +1,14 @@
 import project1 from "../assets/Subject.png";
 import project2 from "../assets/Subject2.png";
 
-export const HERO_CONTENT_EN = `I am a passionate developer with a focus on crafting robust and scalable multi-tier systems. While the term "full-stack developer" is often used, my real passion lies in system design, conception, and implementation. With 3 years of hands-on experience, I've honed my skills in project planning and execution, using front-end technologies like React and Next.js, alongside back-end tools such as C#, Java, .NET, MongoDB, Docker, and Kubernetes. My goal is to leverage this expertise to create innovative, multi-layered solutions that drive business growth and deliver exceptional user experiences.`;
-export const HERO_CONTENT_FR = `Je suis un développeur passionné, spécialisé dans la création de systèmes robustes et évolutifs à plusieurs niveaux. Bien que le terme "développeur full-stack" soit souvent utilisé, ma véritable passion réside dans la conception, la planification et la mise en œuvre de systèmes. Avec 3 ans d'expérience pratique, j'ai perfectionné mes compétences en planification et exécution de projets, en utilisant des technologies front-end comme React et Next.js, ainsi que des outils back-end tels que C#, Java, .NET, MongoDB, Docker et Kubernetes. Mon objectif est de tirer parti de cette expertise pour créer des solutions innovantes et multi-niveaux qui favorisent la croissance des entreprises et offrent des expériences utilisateurs exceptionnelles.`;
+export const HERO_CONTENT_EN = `I am a passionate developer with a focus on crafting robust and scalable multi-tier systems. While the term "full-stack developer" is often used, my real passion lies in system design, conception, and implementation. With 4 years of hands-on experience and 3 years of schooling, I've honed my skills in project planning and execution, using front-end technologies like React and Next.js, alongside back-end tools such as C#, Java, .NET, MongoDB, Docker, and Kubernetes. My goal is to leverage this expertise to create innovative, multi-layered solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT_FR = `Je suis un développeur passionné, spécialisé dans la création de systèmes robustes et évolutifs à plusieurs niveaux. Bien que le terme "développeur full-stack" soit souvent utilisé, ma véritable passion réside dans la conception, la planification et la mise en œuvre de systèmes. Avec 4 ans d'expérience pratique et 3 ans d'études, j'ai perfectionné mes compétences en planification et exécution de projets, en utilisant des technologies front-end comme React et Next.js, ainsi que des outils back-end tels que C#, Java, .NET, MongoDB, Docker et Kubernetes. Mon objectif est de tirer parti de cette expertise pour créer des solutions innovantes et multi-niveaux qui favorisent la croissance des entreprises et offrent des expériences utilisateurs exceptionnelles.`;
 
 export const EXPERIENCES_EN = [
   {
     year: "April 2024 – Present",
     role: "Full-Stack Software Developer & Team Lead",
-    company: "PropChase.ca",
+    company: "PropChase.ca (launching soon)",
     description: `I was responsible for conceptualizing and outlining the entire project, then managing a small team of student developers from the LaSalle ELITE computer science club to bring the vision to life. The project features a .NET/C# web scraper backend that aggregates real estate listings from the greater Montreal area into a MongoDB database. We then placed this data behind a paywall by creating an ASP.NET Web API, allowing other developers to access the database directly. Additionally, we developed a React-based website with a listings page (displaying the aggregated data), an API page (where users can purchase API keys and access the documentation), and a data page (offering pre-packaged insights, such as trending neighborhoods and historical average house prices by location).`,
     technologies: ["DotNet", "MongoDB", "React", "Azure"],
   },
@@ -33,7 +33,7 @@ export const EXPERIENCES_FR = [
   {
     year: "Avril 2024 – Présent",
     role: "Développeur Logiciel Full-Stack & Chef d'Équipe",
-    company: "PropChase.ca",
+    company: "PropChase.ca (lancement bientôt)",
     description: `J'étais responsable de la conceptualisation et de la planification du projet, puis de la gestion d'une petite équipe de développeurs étudiants du club d'informatique ELITE de LaSalle pour donner vie à la vision. Le projet comprend un backend de web scraper en .NET/C# qui agrège des annonces immobilières de la grande région de Montréal dans une base de données MongoDB. Nous avons ensuite placé ces données derrière un mur payant en créant une API Web ASP.NET, permettant à d'autres développeurs d'accéder directement à la base de données. De plus, nous avons développé un site Web basé sur React avec une page de listes (affichant les données agrégées), une page API (où les utilisateurs peuvent acheter des clés API et accéder à la documentation), et une page de données (offrant des analyses préemballées, telles que les quartiers en vogue et les prix moyens historiques des maisons par emplacement).`,
     technologies: ["DotNet", "MongoDB", "React", "Azure"],
   },
@@ -106,7 +106,7 @@ export const EDUCATION_EN = [
     company: "DEC in Computer Science",
   },
   {
-    year: "2025 – Present",
+    year: "Will attend from 2025 – 2030",
     role: "ÉTS (École de Technologie Supérieure)",
     company: "Bachelors Software Engineering",
   },
@@ -119,7 +119,7 @@ export const EDUCATION_FR = [
     company: "DEC en Informatique",
   },
   {
-    year: "2025 – Présent",
+    year: "Fréquentera de 2025 à 2030",
     role: "ÉTS (École de Technologie Supérieure)",
     company: "Baccalauréat en génie logiciel",
   },
