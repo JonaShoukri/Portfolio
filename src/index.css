@@ -6,3 +6,13 @@
 :root {
     font-family: "Source Code Pro", monospace;
 }
+
+html, body {
+    height: 100%;
+    overflow: hidden;
+}
+
+#root {
+    height: 100%;
+    overflow: auto;
+}
