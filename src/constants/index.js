@@ -106,9 +106,9 @@ export const EDUCATION_EN = [
     company: "DEC in Computer Science",
   },
   {
-    year: "Will attend from 2025 – 2030",
+    year: "2025 – 2030",
     role: "ÉTS (École de Technologie Supérieure)",
-    company: "Bachelors Software Engineering",
+    company: "Bachelors Systems Engineering",
   },
 ];
 export const EDUCATION_FR = [
@@ -121,7 +121,7 @@ export const EDUCATION_FR = [
   {
     year: "Fréquentera de 2025 à 2030",
     role: "ÉTS (École de Technologie Supérieure)",
-    company: "Baccalauréat en génie logiciel",
+    company: "Baccalauréat en génie opérations et de la logistique",
   },
 ];
 
