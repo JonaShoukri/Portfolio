@@ -1,8 +1,8 @@
 import project1 from "../assets/Subject.png";
 import project2 from "../assets/Subject2.png";
 
-export const HERO_CONTENT_EN = `I am a passionate developer with a focus on crafting robust and scalable multi-tier systems. While the term "full-stack developer" is often used, my real passion lies in system design, conception, and implementation. With 4 years of hands-on experience and 3 years of schooling, I've honed my skills in project planning and execution, using front-end technologies like React and Next.js, alongside back-end tools such as C#, Java, .NET, MongoDB, Docker, and Kubernetes. My goal is to leverage this expertise to create innovative, multi-layered solutions that drive business growth and deliver exceptional user experiences.`;
-export const HERO_CONTENT_FR = `Je suis un développeur passionné, spécialisé dans la création de systèmes robustes et évolutifs à plusieurs niveaux. Bien que le terme "développeur full-stack" soit souvent utilisé, ma véritable passion réside dans la conception, la planification et la mise en œuvre de systèmes. Avec 4 ans d'expérience pratique et 3 ans d'études, j'ai perfectionné mes compétences en planification et exécution de projets, en utilisant des technologies front-end comme React et Next.js, ainsi que des outils back-end tels que C#, Java, .NET, MongoDB, Docker et Kubernetes. Mon objectif est de tirer parti de cette expertise pour créer des solutions innovantes et multi-niveaux qui favorisent la croissance des entreprises et offrent des expériences utilisateurs exceptionnelles.`;
+export const HERO_CONTENT_EN = `I am an industrial engineering student in the Faculty of Systems Engineering with a distinctive background in computer science, holding a DEC that sets me apart from many in the field. This dual expertise allows me to bridge process optimization and systems thinking with advanced technical skills in software, automation, and data-driven decision making. With 4 years of development experience, I’ve designed and implemented scalable systems using tools such as React, Next.js, C#, Java, .NET, MongoDB, Docker, and Kubernetes. My goal is to leverage this combination of industrial engineering principles and computer science proficiency to optimize complex processes, enhance productivity, and deliver innovative solutions across diverse engineering and business domains.`;
+export const HERO_CONTENT_FR = `Je suis étudiant en génie industriel à la Faculté de génie des systèmes, avec une formation distinctive en informatique grâce à mon DEC, ce qui me démarque de plusieurs dans le domaine. Cette double expertise me permet de relier l’optimisation des processus et la pensée systémique à des compétences techniques avancées en développement logiciel, en automatisation et en prise de décision basée sur les données. Fort de 4 années d’expérience en développement, j’ai conçu et implanté des systèmes évolutifs en utilisant des outils tels que React, Next.js, C#, Java, .NET, MongoDB, Docker et Kubernetes. Mon objectif est de mettre à profit cette combinaison de principes en génie industriel et de compétences en informatique afin d’optimiser des processus complexes, d’accroître la productivité et de livrer des solutions innovantes dans divers domaines de l’ingénierie et des affaires.`;
 
 export const EXPERIENCES_EN = [
   {
@@ -106,9 +106,9 @@ export const EDUCATION_EN = [
     company: "DEC in Computer Science",
   },
   {
-    year: "2025 – 2030",
+    year: "2025 – 2029",
     role: "ÉTS (École de Technologie Supérieure)",
-    company: "Bachelors Systems Engineering",
+    company: "Bachelors in Industrial Engineering",
   },
 ];
 export const EDUCATION_FR = [
@@ -119,7 +119,7 @@ export const EDUCATION_FR = [
     company: "DEC en Informatique",
   },
   {
-    year: "Fréquentera de 2025 à 2030",
+    year: "Fréquentera de 2025 à 2029",
     role: "ÉTS (École de Technologie Supérieure)",
     company: "Baccalauréat en génie opérations et de la logistique",
   },
