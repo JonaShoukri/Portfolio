@@ -43,7 +43,7 @@ const Hero = ({ language, toggleLanguage }) => {
                             initial="hidden"
                             animate="visible"
                             className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent">
-                            {language === 'en' ? 'Systems Designer' : 'Concepteur de Systèmes'}
+                            {language === 'en' ? 'Industiral Engineering Student' : 'Étudiant en génie industriel'}
                         </motion.span>
                         <motion.p
                             variants={container(0.8)}
